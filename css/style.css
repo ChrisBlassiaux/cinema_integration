@@ -60,6 +60,25 @@ body {
   padding: 20px;
 }
 
+.container-2 {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.title {
+  margin-top: 30px;
+  display: inline-block;
+  padding: 20px 60px;
+
+  color: #FFF;
+  background-color: #C61E1E;
+}
+
+.contain-center {
+  margin-top: 30px;
+  text-align: center;
+}
+
 /* header */
 .header {
   height: 500px;
@@ -80,6 +99,16 @@ body {
 .description {
   margin-top: 150px;
   text-align: left;
+}
+
+/* display film */
+.display-films { 
+  margin-top: 50px;
+}
+
+.display-films img {
+  margin-top: 20px;
+  width: 100%;
 }
 
 @media screen and (min-width: 740px) {
@@ -117,5 +146,16 @@ body {
     padding: 0 15px;
 
     text-transform: uppercase;
+  }
+
+  /* display-films */
+  .display-films { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+  }
+
+  .display-films img {
+    height: 400px;
   }
 }
