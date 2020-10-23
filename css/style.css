@@ -56,20 +56,23 @@ body {
   line-height: 20px;
 }
 
-.container {
+.container-header {
   padding: 20px;
 }
 
-.container-2 {
+.container {
   max-width: 900px;
   margin: 0 auto;
+  padding: 20px;
 }
 
 .title {
   margin-top: 30px;
   display: inline-block;
-  padding: 20px 60px;
+  padding: 20px 0;
+  width: 200px;
 
+  text-align: center;
   color: #FFF;
   background-color: #C61E1E;
 }
@@ -109,6 +112,20 @@ body {
 .display-films img {
   margin-top: 20px;
   width: 100%;
+}
+
+/* 3d section */
+.section-3d {
+  margin: 40px 0;
+  padding: 30px 0;
+  background: center / cover no-repeat url(../images/3d.jpg);
+}
+
+.section-3d p {
+  margin-top: 50px;
+  padding: 10px;
+
+  background-color: #C4C4C4;
 }
 
 @media screen and (min-width: 740px) {
@@ -157,5 +174,22 @@ body {
 
   .display-films img {
     height: 400px;
+  }
+
+  /* title */
+  .contain-center {
+    text-align: left;
+  }
+
+
+  /* section 3d */
+  .section-3d {
+    height: 700px;
+  }
+
+  .section-3d p {
+    width: 400px;
+    margin-top: 300px;
+    float: right;
   }
 }
