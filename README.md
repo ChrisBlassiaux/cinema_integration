@@ -12,6 +12,7 @@
 → Ce projet a été créé le 23/10/2020.
 
 ## :eyes:  Aperçu ?
+https://chrisblassiaux.github.io/cinema_integration/
 
 ## :top:  Progression ?
 
