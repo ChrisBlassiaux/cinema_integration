@@ -152,6 +152,11 @@ body {
   background: center / cover no-repeat url(../images/footer.png);
 }
 
+.mark {
+  font-weight: bold;
+  color: #C61E1E;
+}
+
 @media screen and (min-width: 740px) {
 
   .header {
@@ -181,6 +186,7 @@ body {
     right: 0; 
 
     text-align: center;
+    color: #FFF;
   }
 
   .nav a {

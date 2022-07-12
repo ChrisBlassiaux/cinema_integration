@@ -1,6 +1,6 @@
 # cinema_integration <img src="https://raw.githubusercontent.com/matiassingers/awesome-readme/master/icon.png" width="30px" style="float: right">
 
-→  cinema_integration est un excercice d'integration designé par un collegue durant la formation dev web chez PopSchool.
+→  cinema_integration est un projet fictif (formation proposée par Chris Blassiaux).
 
 ## 👤  Auteur(s) : 
 
@@ -22,6 +22,3 @@ https://chrisblassiaux.github.io/cinema_integration/
 
 → Ce projet est codé en HTML, CSS.
 
-## :interrobang:  D'où vient le projet ?
-
-→ Ce projet avait comme difficulté qu'il était à réalisé durant une semaine de travail agrémentée de trois projets web en groupe dont un projet réel. 
