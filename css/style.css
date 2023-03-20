@@ -57,7 +57,7 @@ body {
 }
 
 .container-header {
-  padding: 20px;
+  padding: 100px 0;
 }
 
 .container {
@@ -84,40 +84,71 @@ body {
 
 /* header */
 .header {
-  height: 500px;
-  
-  color: #FFF;
+  height: 700px;
+
+  color: #000;
   text-align: center;
   background: center / cover no-repeat url(../images/header.jpg);
 }
 
 .header img {
-  width: 100px;
+    width: 150px;
 }
 
 .description {
-  margin-top: 150px;
   text-align: left;
+  max-width: 540px;
+  margin: 0 auto;
+}
+
+.nav {
+  display: block;
+
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0; 
+
+  text-align: center;
+  color: #FFF;
+}
+
+.nav a {
+  padding: 0 15px;
+
+  text-transform: uppercase;
 }
 
 /* display film */
 .display-films { 
   margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
 }
 
 .display-films img {
   width: 100%;
+  height: 400px;
+}
+
+ /* title */
+.contain-center {
+  text-align: left;
 }
 
 /* 3d section */
 .section-3d {
+  height: 700px;
   margin: 40px 0;
   padding: 30px 0;
   background: center / cover no-repeat url(../images/3d.jpg);
 }
 
 .section-3d p {
-  margin-top: 50px;
+  width: 400px;
+  margin-top: 300px;
+  float: right;
   padding: 10px;
 
   background-color: #C4C4C4;
@@ -125,6 +156,10 @@ body {
 
 /* section foods */
 .display-foods {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 80px;
+
   background-color: #F1E5E5;
 }
 
@@ -133,6 +168,9 @@ body {
 }
 
 .three-foods {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
   margin-top: 50px;
   text-align: center;
 }
@@ -155,84 +193,4 @@ body {
 .mark {
   font-weight: bold;
   color: #C61E1E;
-}
-
-@media screen and (min-width: 740px) {
-
-  .header {
-    height: 700px;
-    text-align: left;
-
-    color: #000;
-  }
-
-  .header img {
-    width: 150px;
-  }
-
-  .description {
-    margin-top: 0px;
-    
-    max-width: 540px;
-    margin: 0 auto;
-  }
-  
-  .nav {
-    display: block;
-
-    position: absolute;
-    top: 20px;
-    left: 0;
-    right: 0; 
-
-    text-align: center;
-    color: #FFF;
-  }
-
-  .nav a {
-    padding: 0 15px;
-
-    text-transform: uppercase;
-  }
-
-  /* display-films */
-  .display-films { 
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
-  }
-
-  .display-films img {
-    height: 400px;
-  }
-
-  /* title */
-  .contain-center {
-    text-align: left;
-  }
-
-
-  /* section 3d */
-  .section-3d {
-    height: 700px;
-  }
-
-  .section-3d p {
-    width: 400px;
-    margin-top: 300px;
-    float: right;
-  }
-
-  /* section foods */
-  .introducing_food {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 80px;
-  }
-
-  .three-foods {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
-  }
 }
